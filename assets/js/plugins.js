@@ -657,9 +657,8 @@ jQuery.extend( jQuery.easing,
 	};
 	$.fn.onCompleted=function(){
 		//alert("completed");
-		console.log('end');
 		$('.section-before').css('display','none');
-		console.log('end');
+		$('.section-after').css('display','block');
 	};
 	$.fn.dashChangeTo = function(id, dash, n, duration) {
 		  $this = $('#' + id);
